@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>PasteGo Updates</title>
+        <link>https://github.com/HEXING19/PasteGo-releases</link>
+        <description>PasteGo stable update feed</description>
+        <language>zh-CN</language>
+    </channel>
+</rss>
