@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>PasteGo Updates</title>
-        <link>https://github.com/HEXING19/PasteGo-releases</link>
-        <description>PasteGo stable update feed</description>
-        <language>zh-CN</language>
+        <title>PasteGo</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 02 Aug 2026 17:32:08 +0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.0/PasteGo-0.1.0.zip" length="3808689" type="application/octet-stream" sparkle:edSignature="IfeW+/5QHUPTe+OldF+W2sBOS03G5oAL8VjCckt3H8DmRFswqZvEdEgTvR9rrk4qunhz4BDxDRkDiGmQKJH8Aw=="/>
+        </item>
     </channel>
 </rss>
