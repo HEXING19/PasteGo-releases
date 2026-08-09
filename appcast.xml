@@ -3,6 +3,23 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.9</title>
+            <pubDate>Sun, 09 Aug 2026 19:54:54 +0800</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.9
+
+- 重新设计软件更新下载进度窗口，与检查更新页面统一使用动态背景和紧凑标题栏。
+- 下载页面只保留一个 PasteGo Logo，并移除下载内容周围多余的玻璃卡片和重复边框。
+- 进一步压缩软件更新窗口顶部横条高度，优化窗口高度、进度信息和取消按钮布局。
+- 适配深色、亮色及中英文界面。
+
+支持 Apple Silicon 与 Intel Mac（Universal 2）。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.9/PasteGo-0.1.9.zip" length="4043164" type="application/octet-stream" sparkle:edSignature="+evAsgdyrf/GGiGIuYVCFSB0LzoE+QkxK/VsQxXxnHSaGRkALKPxDRMuBs4sJZxBLEbNgET8syqykM+L7rrPCg=="/>
+        </item>
+        <item>
             <title>0.1.8</title>
             <pubDate>Sun, 09 Aug 2026 19:32:00 +0800</pubDate>
             <sparkle:version>9</sparkle:version>
