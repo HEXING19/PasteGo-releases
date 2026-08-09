@@ -9,6 +9,17 @@
             <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.1/PasteGo-0.1.1.zip" length="3795031" type="application/octet-stream" sparkle:edSignature="u6uMJqG/9175dCyxoVks9GeSYrimeFf46jVqObu2Yv5+hDQV2h1PffiIL/Iwjn6GFjnyTklBLkL8dsQM5s0iBQ=="/>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.1
+
+- 修复中文输入法组合输入时按回车会误粘贴并关闭历史窗口的问题。
+- 剪贴板历史默认按 7 天保留，可在设置中调整；收藏和置顶记录不会被自动清理。
+- 重复复制同一内容时刷新复制时间并回到列表前部。
+- 文字与图片使用独立固定卡片尺寸，图片卡片展示面积更大。
+- 移除历史窗口中的范围与排序菜单。
+- 完成窗口置顶行为，并为已置顶记录显示状态标识。
+
+支持 Apple Silicon 与 Intel Mac（Universal 2）。
+]]></description>
         </item>
     </channel>
 </rss>
