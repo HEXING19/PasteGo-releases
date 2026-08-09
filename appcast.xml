@@ -3,6 +3,23 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.6</title>
+            <pubDate>Sun, 09 Aug 2026 16:17:51 +0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.6
+
+- 大幅改善剪贴板历史点击跟手性：单击不再等待双击判定，可立即选中记录。
+- 鼠标点击记录时不再强制将列表滚动到中央；键盘上下导航仍会自动跟随滚动。
+- 优化 OCR 结果页的复制状态对比度；再次复制后按钮会即时显示“已复制”或“复制失败”反馈。
+- 包含近期 OCR 结果窗口、软件更新窗口和历史列表性能修复。
+
+支持 Apple Silicon 与 Intel Mac（Universal 2）。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.6/PasteGo-0.1.6.zip" length="3939473" type="application/octet-stream" sparkle:edSignature="gn7OVKVWV0s5Geb5/XRsc/IRGlUQGW4LWcqChPkDrVFpkQbNk4+y56pTxm0a5uPoEQWqIDEJTmZDXV49CcZtDA=="/>
+        </item>
+        <item>
             <title>0.1.5</title>
             <pubDate>Sun, 09 Aug 2026 15:59:53 +0800</pubDate>
             <sparkle:version>6</sparkle:version>
