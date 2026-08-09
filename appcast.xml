@@ -3,6 +3,23 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Sun, 09 Aug 2026 16:44:48 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.7
+
+- 菜单栏图标改为单色模板图标，可自动适配浅色、深色和选中状态。
+- 新增软件语言设置：支持跟随系统、简体中文和 English，切换后无需重启即可生效。
+- 设置、菜单栏、剪贴板搜索、OCR、预览、软件更新和权限提示现已提供中英文界面。
+- 移除外观主题下方的冗余说明文字，并优化英文状态下的日期、数量和错误提示。
+
+支持 Apple Silicon 与 Intel Mac（Universal 2）。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.7/PasteGo-0.1.7.zip" length="4000242" type="application/octet-stream" sparkle:edSignature="0ggHK/bpiKJVEJjjfhEAyySQZ10NAcXADxa8tO17wumaL+4cpbON6E/EkuQC4AmSXGXJhDgDYtJaUCDHq5nkAg=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Sun, 09 Aug 2026 16:17:51 +0800</pubDate>
             <sparkle:version>7</sparkle:version>
