@@ -3,12 +3,12 @@
     <channel>
         <title>PasteGo</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Sun, 02 Aug 2026 17:32:08 +0800</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.1.1</title>
+            <pubDate>Sun, 09 Aug 2026 14:17:11 +0800</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.0/PasteGo-0.1.0.zip" length="3808689" type="application/octet-stream" sparkle:edSignature="IfeW+/5QHUPTe+OldF+W2sBOS03G5oAL8VjCckt3H8DmRFswqZvEdEgTvR9rrk4qunhz4BDxDRkDiGmQKJH8Aw=="/>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.1/PasteGo-0.1.1.zip" length="3795031" type="application/octet-stream" sparkle:edSignature="u6uMJqG/9175dCyxoVks9GeSYrimeFf46jVqObu2Yv5+hDQV2h1PffiIL/Iwjn6GFjnyTklBLkL8dsQM5s0iBQ=="/>
         </item>
     </channel>
 </rss>
