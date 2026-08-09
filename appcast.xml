@@ -3,6 +3,23 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.2</title>
+            <pubDate>Sun, 09 Aug 2026 15:12:04 +0800</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.2
+
+- 提升剪贴板历史记录连续切换时的流畅度，减少无关记录行的重复绘制，并移除强制滚动动画。
+- 移除文字类型历史记录在正文与来源信息之间的多余空白。
+- 统一设置页外观主题、系统设置、检查更新与授权状态控件的尺寸和视觉样式。
+- 将快速搜索框的占位文字改为清晰的主文字颜色，并自动适配浅色与深色主题。
+
+支持 Apple Silicon 与 Intel Mac（Universal 2）。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.2/PasteGo-0.1.2.zip" length="3876782" type="application/octet-stream" sparkle:edSignature="Zjx9EAPGlN48TJrFFH2Sm808Pv+xz/Gk6Kq39T3D/oWzF9+s1hXAqSosn8RxCtnwW2QQQHyp2WiVcNCmI75HBA=="/>
+        </item>
+        <item>
             <title>0.1.1</title>
             <pubDate>Sun, 09 Aug 2026 14:17:11 +0800</pubDate>
             <sparkle:version>2</sparkle:version>
