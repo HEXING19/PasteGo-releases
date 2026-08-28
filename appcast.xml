@@ -3,6 +3,24 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.18</title>
+            <pubDate>Fri, 28 Aug 2026 10:25:10 +0800</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.18
+
+- 修复焦点位于密码输入框时，全局快捷键可能无法稳定显示剪贴板历史窗口的问题。
+- 修复“外观”选择“跟随系统”后，macOS 深色模式下 PasteGo 仍保持浅色外观的问题。
+- 修复软件更新窗口在检查完成后反复缩小、放大的异常动画，更新窗口现在保持稳定尺寸。
+- 本地 OCR 现在会结合文字置信度、行动意图和时间信息判断待办，只自动添加高置信度内容，降低误添加风险。
+- Pro 用户可将明确待办自动写入 macOS 提醒事项；重复内容会被跳过，并支持撤销与本地纠错学习。
+- Free 状态新增居中的自动添加 Pro 锁定蒙层，完整适配亮色、暗黑模式以及中英文界面。
+- 提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.18/PasteGo-0.1.18.zip" length="4268493" type="application/octet-stream" sparkle:edSignature="d222n6xnr8R4S3BsB3+zPu27ckH5F1RGv7wH5Ugl2ITLvgi7ICPRLeFY8mQF9Q/2OCqE/EOx3OUN0xn27+QjCg=="/>
+        </item>
+        <item>
             <title>0.1.17</title>
             <pubDate>Thu, 13 Aug 2026 09:36:36 +0800</pubDate>
             <sparkle:version>18</sparkle:version>
@@ -132,21 +150,6 @@
 支持 Apple Silicon 与 Intel Mac（Universal 2）。
 ]]></description>
             <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.9/PasteGo-0.1.9.zip" length="4043164" type="application/octet-stream" sparkle:edSignature="+evAsgdyrf/GGiGIuYVCFSB0LzoE+QkxK/VsQxXxnHSaGRkALKPxDRMuBs4sJZxBLEbNgET8syqykM+L7rrPCg=="/>
-        </item>
-        <item>
-            <title>0.1.8</title>
-            <pubDate>Sun, 09 Aug 2026 19:32:00 +0800</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.8/PasteGo-0.1.8.zip" length="3998940" type="application/octet-stream" sparkle:edSignature="xV7mDP1Z/aKnngx2rrzHWQvw0NZ4hWBX8kKZHf8KIE5FlgdxkTLH8W0VaAOk1kLCmHM8vu/HOCNRQ4b1P6oJAw=="/>
-            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.8
-
-- 修复本地 OCR 识别结果窗口在深色模式下四角与系统窗口轮廓不贴合的问题。
-- 同步修复亮色模式下同源的圆角裁剪错位，窗口边框、阴影与背景在两种外观下均完整贴合。
-
-支持 Apple Silicon 与 Intel Mac（Universal 2）。
-]]></description>
         </item>
     </channel>
 </rss>
