@@ -3,6 +3,22 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.19</title>
+            <pubDate>Sat, 29 Aug 2026 09:19:04 +0800</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.19
+
+- 全面升级本地 OCR 待办分析：可将一张截图中的多项任务分段识别，并结合文字置信度、行动意图和日期信息分别判断。
+- 日期和时间解析现支持相对日期、星期、月末及明确日期；含糊、过期或低置信度内容仅提示确认，不会自动创建提醒。
+- 增加提醒事项列表选择、重复检查、撤销和本地加密纠错学习；Free 与 Pro 状态的 OCR 界面均已完善中英文和深浅色适配。
+- 修复“明天”等相对日期被系统日期识别器错误偏移的问题。
+- 提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.19/PasteGo-0.1.19.zip" length="4705474" type="application/octet-stream" sparkle:edSignature="icezBhKszZeSV92ahtlOohvf+sDuFMNBHy+J7euZFColAbHxUBkB3nz40YGuQumlz2he+tp1GmKcINH9Wj5AAQ=="/>
+        </item>
+        <item>
             <title>0.1.18</title>
             <pubDate>Fri, 28 Aug 2026 10:25:10 +0800</pubDate>
             <sparkle:version>19</sparkle:version>
@@ -133,23 +149,6 @@
 支持 Apple Silicon 与 Intel Mac（Universal 2）。
 ]]></description>
             <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.10/PasteGo-0.1.10.zip" length="4028323" type="application/octet-stream" sparkle:edSignature="GbIJPyYtFuhUXYEptm7zxUUbdAfcPoCIZr34SK7Ze/lL/o6Q94l9Rwv6KviCB+JZHaWUTw8mvHF2Ue9twJFxCQ=="/>
-        </item>
-        <item>
-            <title>0.1.9</title>
-            <pubDate>Sun, 09 Aug 2026 19:54:54 +0800</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.9
-
-- 重新设计软件更新下载进度窗口，与检查更新页面统一使用动态背景和紧凑标题栏。
-- 下载页面只保留一个 PasteGo Logo，并移除下载内容周围多余的玻璃卡片和重复边框。
-- 进一步压缩软件更新窗口顶部横条高度，优化窗口高度、进度信息和取消按钮布局。
-- 适配深色、亮色及中英文界面。
-
-支持 Apple Silicon 与 Intel Mac（Universal 2）。
-]]></description>
-            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.9/PasteGo-0.1.9.zip" length="4043164" type="application/octet-stream" sparkle:edSignature="+evAsgdyrf/GGiGIuYVCFSB0LzoE+QkxK/VsQxXxnHSaGRkALKPxDRMuBs4sJZxBLEbNgET8syqykM+L7rrPCg=="/>
         </item>
     </channel>
 </rss>
