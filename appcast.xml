@@ -3,6 +3,20 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.20</title>
+            <pubDate>Sat, 29 Aug 2026 09:42:01 +0800</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.20
+
+- 修复菜单栏模式下软件更新窗口可能未出现在当前桌面、导致已发现更新却没有弹窗的问题。
+- 更新检查、下载、安装确认与错误提示现在都会切换到当前 Space 并强制置前。
+- 提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.20/PasteGo-0.1.20.zip" length="4705697" type="application/octet-stream" sparkle:edSignature="OyikJ7sHsFgnA7wqqfxBK/GWwMz2HsoSUcG6Fg6uBzLhoMYT+pYpXfZmsoPYL0k90u/A0e5kR8lMBQqB8djlBw=="/>
+        </item>
+        <item>
             <title>0.1.19</title>
             <pubDate>Sat, 29 Aug 2026 09:19:04 +0800</pubDate>
             <sparkle:version>20</sparkle:version>
@@ -133,22 +147,6 @@
 - 保持深浅色与中英文界面适配，并继续提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
 ]]></description>
             <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.11/PasteGo-0.1.11.zip" length="4020907" type="application/octet-stream" sparkle:edSignature="xOoWsBvQJiXMw/3vbYquFYn6WOlamO1+RjcnX3Wt7Q177OxbsDiBP9WRP3gPoGXVX4azMkdG/trjNGWnR8lpAw=="/>
-        </item>
-        <item>
-            <title>0.1.10</title>
-            <pubDate>Sun, 09 Aug 2026 20:06:19 +0800</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.10
-
-- 软件更新窗口将自绘渐变横条融合进 macOS 原生标题栏，让标题与窗口控制按钮保持在同一行且不增加高度。
-- 修复设置页 Choose 等按钮只有文字区域可点击的问题，所有共用控制按钮现在整个可见区域均可点击。
-- 下载界面继续保持单 Logo、无多余内容边框，并适配深浅色和中英文。
-
-支持 Apple Silicon 与 Intel Mac（Universal 2）。
-]]></description>
-            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.10/PasteGo-0.1.10.zip" length="4028323" type="application/octet-stream" sparkle:edSignature="GbIJPyYtFuhUXYEptm7zxUUbdAfcPoCIZr34SK7Ze/lL/o6Q94l9Rwv6KviCB+JZHaWUTw8mvHF2Ue9twJFxCQ=="/>
         </item>
     </channel>
 </rss>
