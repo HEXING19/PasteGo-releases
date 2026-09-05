@@ -3,6 +3,20 @@
     <channel>
         <title>PasteGo</title>
         <item>
+            <title>0.1.21</title>
+            <pubDate>Sat, 05 Sep 2026 11:37:51 +0800</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.21
+
+- 修复中文 OCR 识别乱码：现在始终启用简体中文、繁体中文、英文和日文，并自动修复旧版遗留的语言配置。
+- 没有可添加待办时，OCR 结果窗口会自动收起底部空白区域。
+- 提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
+]]></description>
+            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.21/PasteGo-0.1.21.zip" length="4813693" type="application/octet-stream" sparkle:edSignature="aZbJ+ieh3xgOZnEInneYTnMpbSk8jqK21WJTMEMnjCaaXzIXdQSpo7+kvB7o5tf8uW+OBX6MBV/FCC6L5FUWDA=="/>
+        </item>
+        <item>
             <title>0.1.20</title>
             <pubDate>Sat, 29 Aug 2026 09:42:01 +0800</pubDate>
             <sparkle:version>21</sparkle:version>
@@ -133,20 +147,6 @@
 - 延续 0.1.11 的界面与本地化改进，并提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
 ]]></description>
             <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.12/PasteGo-0.1.12.zip" length="4020902" type="application/octet-stream" sparkle:edSignature="eXFqurVb6E7Rr4hfG454yZdwkjrcdS7Fg0hCU2RzPJ1V4yWmneHWXbgB0HIDIfyfvyFhPwVw7RgmbIKg0HkTAw=="/>
-        </item>
-        <item>
-            <title>0.1.11</title>
-            <pubDate>Sun, 09 Aug 2026 20:32:57 +0800</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## PasteGo 0.1.11
-
-- 软件更新窗口的自绘渐变背景现在完整延伸到 macOS 原生标题栏，标题、交通灯与正文保持同一视觉层次。
-- 下载窗口默认高度更紧凑，移除取消按钮下方多余留白，同时保留舒适的内容间距。
-- 保持深浅色与中英文界面适配，并继续提供 Apple Silicon 与 Intel Mac 的 Universal 2 构建。
-]]></description>
-            <enclosure url="https://github.com/HEXING19/PasteGo-releases/releases/download/v0.1.11/PasteGo-0.1.11.zip" length="4020907" type="application/octet-stream" sparkle:edSignature="xOoWsBvQJiXMw/3vbYquFYn6WOlamO1+RjcnX3Wt7Q177OxbsDiBP9WRP3gPoGXVX4azMkdG/trjNGWnR8lpAw=="/>
         </item>
     </channel>
 </rss>
